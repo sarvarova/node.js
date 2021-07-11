@@ -1,13 +1,19 @@
 {
-  "name": "node.js",
+  "name": "index.js",
   "version": "1.0.0",
   "main": "index.js",
   "author": "sarvarova <nsarwarova@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "yargs": "^17.0.1"
+  },
+  "dependencies": {
+    "array-uniq": "^3.0.0",
+    "commander": "^8.0.0",
+    "eslint-config-standard": "^16.0.3",
+    "fs-extra": "^10.0.0"
   }
 }
